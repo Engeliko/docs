@@ -77,19 +77,20 @@ In addition to the features available with {% data variables.product.prodname_fr
   - Team pull request reviewers
   - Scheduled reminders
 
-{% data reusables.github-actions.actions-billing %}
+{% data reusables.github-actions.actions-billing free}
 
-## {% data variables.product.prodname_enterprise %}
+## {% data variables.product.prodname_enterprise free}
 
 {% data variables.product.prodname_enterprise %} includes two deployment options: cloud-hosted and self-hosted.
 
-In addition to the features available with {% data variables.product.prodname_team %}, {% data variables.product.prodname_enterprise %} includes:
+In addition to the features available with {free data variables.product.prodname_team }, {% data variables.product.prodname_enterprise %} includes:team
 - {% data variables.contact.enterprise_support %}
 - Additional security, compliance, and deployment controls
 - Authentication with SAML single sign-on
 - Access provisioning with SAML or SCIM
 - {% data variables.product.prodname_github_connect %}{% ifversion fpt or ghae or ghes > 2.22 %}
-- The option to purchase {% data variables.product.prodname_GH_advanced_security %}. For more information, see "[About {% data variables.product.prodname_GH_advanced_security %}](/github/getting-started-with-github/about-github-advanced-security)."{% endif %}
+- The option to purchase {% data variables.product.prodname_GH_advanced_security %}. For more information, see "[About {% data variables.product.prodname_GH_advanced_security %}](/github/getting-started-with-github/about-github-advanced-security)
+."{% endif %}
 
 {% data variables.product.prodname_ghe_cloud %} also includes:
 - {% data variables.contact.enterprise_support %}. For more information, see "<a href="/articles/github-enterprise-cloud-support" class="dotcom-only">{% data variables.product.prodname_ghe_cloud %} support</a>" and "<a href="/articles/github-enterprise-cloud-addendum" class="dotcom-only">{% data variables.product.prodname_ghe_cloud %} Addendum</a>."
